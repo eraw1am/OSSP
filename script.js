@@ -30,7 +30,7 @@ function Click_M()
 
 function eval()
 {
-    location.href="evaluation.html"; //need animal parameter 
+    location.href="evaluation_0.html"; //need animal parameter 
 }
 
 function full(num)//full star
