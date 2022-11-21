@@ -3,11 +3,11 @@ function upload()
 {
     if(localStorage.getItem("gender")=="W")
     {
-        document.getElementById('gen').innerHTML='나는 어떤 동물과 닮았을까? <img src="C:/Users/Master/Desktop/open/html/photo/w_small.png" width="40"/>';
+        document.getElementById('gen').innerHTML='나는 어떤 동물과 닮았을까? <img src="./photo/w_small.png" width="40"/>';
     }
     if(localStorage.getItem("gender")=="M")
     {
-        document.getElementById('gen').innerHTML='나는 어떤 동물과 닮았을까? <img src="C:/Users/Master/Desktop/open/html/photo/m_small.png" width="40"/>';
+        document.getElementById('gen').innerHTML='나는 어떤 동물과 닮았을까? <img src="./photo/m_small.png" width="40"/>';
     }
 }
 
@@ -35,9 +35,9 @@ function eval()
 
 function full(num)//full star
 {
-    document.getElementById('star_'+num).innerHTML='<img src="C:/Users/Master/Desktop/open/html/photo/f_star.png" width="70" style="cursor:pointer;" onclick="empty('+num+')"/>';
+    document.getElementById('star_'+num).innerHTML='<img src="./photo/f_star.png" width="70" style="cursor:pointer;" onclick="empty('+num+')"/>';
 }
 function empty(num)//empty star
 {
-    document.getElementById('star_'+num).innerHTML='<img src="C:/Users/Master/Desktop/open/html/photo/star.png" width="70" style="cursor:pointer;" onclick="full('+num+')"/>';
+    document.getElementById('star_'+num).innerHTML='<img src="./photo/star.png" width="70" style="cursor:pointer;" onclick="full('+num+')"/>';
 }
