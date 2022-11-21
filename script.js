@@ -31,6 +31,7 @@ function Click_M()
 function eval()
 {
     location.href="evaluation_0.html"; //need animal parameter 
+    //evaluation_0~evaluation_9
 }
 
 function full(num)//full star
