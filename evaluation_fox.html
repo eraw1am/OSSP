@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lookalike style recommendations</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<nav class="bar_bg">
+    <div align="center">
+        <a href="recomend.html"><img src=".\photo\reco.png" width="60"/></a> <!--navi bar-->
+    </div>
+</nav>
+<body class="bg" onload="upload()">
+    <div align="center">
+        <p><br><br><br></p>
+        <p class="title_1">나와 어울리는 스타일 찾기</p>
+        <p class="title_2" id="gen">나는 어떤 동물과 닮았을까?</p>
+        <br>
+        <p id="animal_res" style="font-family: 'Do Hyeon', sans-serif; font-size: 20px;"><img src=".\photo\cat.png" width=35/>&nbsp여우 상의 사람들에게는 걸리시 스타일을 추천합니다!</p><!--need js-->
+        <br>
+        <table>
+            <tr>
+                <td id="cloth_1"> <!--need js-->
+                    <img src="https://image.msscdn.net/images/style/detail/30065/detail_30065_2_500.jpg" width=250/> 
+                </td>
+                <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
+                <td id="cloth_2"> <!--need js-->
+                    <img src="https://image.msscdn.net/images/style/detail/30062/detail_30062_2_500.jpg" width=250/> 
+                </td>
+                <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
+                <td id="cloth_3"> <!--need js-->
+                    <img src="https://image.msscdn.net/images/style/detail/30056/detail_30056_1_500.jpg" width=250/> 
+                </td>
+            </tr>
+            <tr align="center">
+                <td id="intro_1"> <!--need js--> 
+                    핑크 컬러의 숏 코트와 미니스커트, <br>
+                    롱부츠로 연출한 걸리시 룩
+                </td>
+                <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
+                <td id="intro_2"> <!--need js-->
+                    레드 컬러가 돋보이는 니트 집업과 미니스커트,<br>
+                    플리스 재킷으로 꾸민 걸리시 룩
+                </td>
+                <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
+                <td id="intro_3"> <!--need js-->
+                    숄더 라인 디테일이 돋보이는 니트에 <br>
+                    체크 스커트를 더하고 더플 코트를 걸친 걸리시 룩
+                </td>
+            </tr>
+            <tr>
+                <td id="cloth_1"> <!--need js-->
+                    <img src="https://image.msscdn.net/images/goods_img/20221020/2878406/2878406_1_500.jpg?t=20221020125108" width=250/> 
+                </td>
+                <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
+                <td id="cloth_2"> <!--need js-->
+                    <img src="https://image.msscdn.net/images/goods_img/20221007/2847344/2847344_1_500.jpg?t=20221011140057" width=250/> 
+                </td>
+                <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
+                <td id="cloth_3"> <!--need js-->
+                    <img src="https://image.msscdn.net/images/goods_img/20221007/2848719/2848719_1_500.jpg?t=20221011134533" width=250/> 
+                </td>
+            </tr>
+            <tr align="center">
+                <td id="intro_1"> <!--need js--> 
+                    Posh short coat (pink gray) <br>
+                    212,000원 <br>
+                    https://www.musinsa.com/app/goods/2878406/0 <br>
+                    #점퍼#아우터#22FW컬렉션#딜라이디
+                </td>
+                <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
+                <td id="intro_2"> <!--need js-->
+                    Tweed Colored Wool Jacket IVORY <br>
+                    110,000원 <br>
+                    https://www.musinsa.com/app/goods/2847344/0 <br>
+                    #점퍼#플리스자켓#자켓#플리스#집업#22F/W컬렉션#우먼라인
+                </td>
+                <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
+                <td id="intro_3"> <!--need js-->
+                    3M 신슐레이트 보아 플리스 더플 롱 코트 아이보리 <br>
+                    147,800원 <br>
+                    https://www.musinsa.com/app/goods/2848719/0 <br>
+                    #후리스#플리스#코트#더플코트#양털#뽀글이#22WINTER컬렉션
+                </td>
+            </tr>
+            <tr>
+                <td id="cloth_1"> <!--need js-->
+                    <img src="https://image.msscdn.net/images/goods_img/20220926/2818876/2818876_2_500.jpg?t=20221007101242" width=250/> 
+                </td>
+                <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
+                <td id="cloth_2"> <!--need js-->
+                    <img src="https://image.msscdn.net/images/goods_img/20221005/2839866/2839866_1_500.jpg?t=20221005141903" width=250/> 
+                </td>
+                <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
+                <td id="cloth_3"> <!--need js-->
+                    <img src="https://image.msscdn.net/images/goods_img/20221007/2847434/2847434_1_500.jpg?t=20221012134632" width=250/> 
+                </td>
+            </tr>
+            <tr align="center">
+                <td id="intro_1"> <!--need js--> 
+                    pocket denim mini skirt - black  <br>
+                    132,000원 <br>
+                    https://www.musinsa.com/app/goods/2818876/0 <br>
+                    #스커트#미니스커트#와이낫어스
+                </td>
+                <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
+                <td id="intro_2"> <!--need js-->
+                    Jenny Tweed Skirt BLACK <br>
+                    41,000원 <br>
+                    https://www.musinsa.com/app/goods/2839866/0 <br>
+                    #셋업#트위드#여자스커트#여성스커트#미니#스커트#치마
+                </td>
+                <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
+                <td id="intro_3"> <!--need js-->
+                    wool blend belted mini skirt - charcoal plaid  <br>
+                    165,000원 <br>
+                    https://www.musinsa.com/app/goods/2847434/0 <br>
+                    #차콜#트위드#여자스커트#여성스커트#미니#스커트#치마
+                </td>
+            </tr>
+            <tr>
+                <td id="cloth_1"> <!--need js-->
+                    <img src="https://image.msscdn.net/images/goods_img/20221019/2877672/2877672_1_500.jpg?t=20221019195056" width=250/> 
+                </td>
+                <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
+                <td id="cloth_2"> <!--need js-->
+                    <img src="https://image.msscdn.net/images/goods_img/20221012/2855351/2855351_1_500.jpg?t=20221012170821" width=250/> 
+                </td>
+                <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
+                <td id="cloth_3"> <!--need js-->
+                    <img src="https://image.msscdn.net/images/goods_img/20221016/2866244/2866244_2_500.jpg?t=20221016190927" width=250/> 
+                </td>
+            </tr>
+            <tr align="center">
+                <td id="intro_1"> <!--need js--> 
+                    RUIMI 아웃솔 롱부츠 TDN2225N <br>
+                    138,000원 <br>
+                    https://www.musinsa.com/app/goods/2877672/0 <br>
+                    #낮은굽롱부츠#4CM부츠#여성부츠#여자롱부츠#롱부츠#겨울롱부츠#기본롱부츠
+                </td>
+                <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
+                <td id="intro_2"> <!--need js-->
+                    타우 웨스턴 미들부츠 <br>
+                    296,000원 <br>
+                    https://www.musinsa.com/app/goods/2855351/0 <br>
+                    #미들부츠#하프부츠#앵클부츠#미드부츠#롱부츠#여성부츠#여자부츠
+                </td>
+                <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
+                <td id="intro_3"> <!--need js-->
+                    cbb348 long boots _ 2colors <br>
+                    165,000원 <br>
+                    https://www.musinsa.com/app/goods/2866244/0 <br>
+                    #여자롱부츠#롱부츠#겨울롱부츠#여성부츠
+                </td>
+            </tr>
+        </table>
+    </div>
+    <script src="script.js" type="text/javascript"></script><!--script-->
+</body>
