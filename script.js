@@ -28,12 +28,6 @@ function Click_M()
     location.href="upload.html";
 }
 
-function eval()
-{
-    location.href="evaluation_0.html"; //need animal parameter 
-    //evaluation_0~evaluation_9
-}
-
 function full(num)//full star
 {
     document.getElementById('star_'+num).innerHTML='<img src="./photo/f_star.png" width="70" style="cursor:pointer;" onclick="empty('+num+')"/>';
