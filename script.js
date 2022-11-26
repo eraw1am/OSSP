@@ -29,6 +29,19 @@ function upload()
     }
 }
 
+function upload_re()
+{
+    if(localStorage.getItem("gender")=="W")
+    {
+        document.getElementById('gen').innerHTML='나는 어떤 동물과 닮았을까? <img src="./photo/w_small.png" width="40"/>';
+    }
+    if(localStorage.getItem("gender")=="M")
+    {
+        document.getElementById('gen').innerHTML='나는 어떤 동물과 닮았을까? <img src="./photo/m_small.png" width="40"/>';
+    }
+    document.getElementById('ph').innerHTML='<img src="'+localStorage.getItem("image")+'" id="face-image" width=250 />';
+}
+
 function upload_ph()
 {
     location.href="result.html";

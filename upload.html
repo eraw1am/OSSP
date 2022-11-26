@@ -100,8 +100,10 @@
                     $('.file-upload-image').attr('src', e.target.result);
                     $('.file-upload-content').show();
                     $('.image-title').html(input.files[0].name);
+                    localStorage.setItem('image', e.target.result);
                 };
                 reader.readAsDataURL(input.files[0]);
+                
                 init().then(() => {
                     predict();
                 });
