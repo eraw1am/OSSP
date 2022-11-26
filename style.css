@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 
 *{
     margin:0;
@@ -268,3 +269,25 @@ body {
       color: #35465d;
       margin: 0 auto;
   }
+
+  .intro{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.txt{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.bar{
+    text-align: center;
+    width: 500px;
+    border: 0.1px solid lightgray;
+}
+
+.b_1{
+    text-align: center;
+    width: 200px;
+    border: 0.1px dashed orange;
+}
