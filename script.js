@@ -1,9 +1,11 @@
 
+
 function user()
 {
     let users = localStorage.getItem('user');
     console.log(users);
-    if(users === '[object Undefined]') users = 1;
+    if(users === null) users = 1;
+    else if(users === 'NaN') users = 1;
     else
     {
         users=parseInt(users);
