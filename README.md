@@ -15,7 +15,7 @@
 - 닮은 꼴 상 페이지
 
 # evaluation.html
-- 스타일 추천 페이지
+- 스타일 추천
 
 # recomended.html
 - 별점 페이지
