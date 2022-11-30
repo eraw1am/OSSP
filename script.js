@@ -1,5 +1,5 @@
 
-// web app page
+
 function user()
 {
     let users = localStorage.getItem('user');
