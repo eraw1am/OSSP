@@ -143,15 +143,6 @@ function recommend()
     let n=parseInt(localStorage.getItem('user'));
     for(let i=1;i<=n;i++)
     {
-        const table=document.getElementById("reco_table");
-        const newRow=table.insertRow(-1);
-        const newCell1=newRow.insertCell(0);
-        const newCell2=newRow.insertCell(1);
-
-        newCell1.style.cssText="background-color:#fffdf1; text-align:center;";
-        newCell2.style.cssText="background-color:#fffdf1; text-align:center;";
-
-        newCell1.innerText='user'+i;//first cell is rec
-        newCell2.innerText=localStorage.getItem('user'+i.toString());//second cell is sc
+        
     }
 }
