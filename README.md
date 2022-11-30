@@ -48,7 +48,7 @@
 파일을 업로드 하는 페이지에서 이미지 업로드 후 모델 load 및 학습이 진행되어 시간이 소요되기 때문에 go 버튼이 나올 때까지 기다려야 합니다.
 
 # Publish
-[https://github.com/eraw1am/OSSP.git](https://github.com/eraw1am/OSSP.git)
+[https://eraw1am.github.io/OSSP/](https://eraw1am.github.io/OSSP/)
 You can test in Github Page!
 
 # Version
