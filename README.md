@@ -7,7 +7,7 @@
 
 
 # 페이지 구성 파일 별 기능 설명
-1. home.html(시작 페이지)
+1. index.html(시작 페이지)
 
 2. gender.html(성별 선택 페이지)
 
