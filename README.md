@@ -47,11 +47,12 @@
 페이지 하단의 go 버튼을 따라서 진행합니다.  
 파일을 업로드 하는 페이지에서 이미지 업로드 후 모델 load 및 학습이 진행되어 시간이 소요되기 때문에 go 버튼이 나올 때까지 기다려야 합니다.
 
-# Installation
-
+# Publish
+[https://github.com/eraw1am/OSSP.git](https://github.com/eraw1am/OSSP.git)
+You can test in Github Page!
 
 # Version
-V.1.3.1
+V.1.5.1
 
 # Code of Conduct
 해당 프로젝트를 개발하는 인원들은 패션 선택에 어려움을 느끼는 소비자를 위해 상호 존중 속에서 협력을 통해 작업을 진행했습니다.  
