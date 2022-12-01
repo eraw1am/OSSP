@@ -54,6 +54,9 @@ You can test in Github Page!
 # Version
 V.1.5.1
 
+# YOUTUBE Link
+[https://youtu.be/cukRYZwpI-I](https://youtu.be/cukRYZwpI-I)
+
 # Code of Conduct
 해당 프로젝트를 개발하는 인원들은 패션 선택에 어려움을 느끼는 소비자를 위해 상호 존중 속에서 협력을 통해 작업을 진행했습니다.  
 프로젝트 유지자는 메일을 통해 다른 이용자와의 피드백 및 contribute에 대한 요청에 항상 대응하여야 합니다.
